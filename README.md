@@ -9,3 +9,7 @@ HCNetSDK.getInstance().NET_DVR_Login_V30(strIP, nPort,strUser, strPsd, m_oNetDvr
 HCNetSDK.getInstance().NET_DVR_RealPlay_V40(m_iLogID,previewInfo, fRealDataCallBack)//视频流回调
 
 HCNetSDK.getInstance().NET_DVR_StopSaveRealData(m_iPlayID)//停止播放
+
+Player.getInstance().getPictureSize(m_iPort, stWidth,stHeight)
+Player.getInstance().getBMP(m_iPort, picBuf, nSize, stSize)
+Player.getInstance().getJPEG(m_iPort, picBuf, nSize, stSize)//执行拍照
