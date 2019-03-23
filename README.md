@@ -13,3 +13,5 @@ HCNetSDK.getInstance().NET_DVR_StopSaveRealData(m_iPlayID)//停止播放
 Player.getInstance().getPictureSize(m_iPort, stWidth,stHeight)
 Player.getInstance().getBMP(m_iPort, picBuf, nSize, stSize)
 Player.getInstance().getJPEG(m_iPort, picBuf, nSize, stSize)//执行拍照
+
+![image](https://github.com/zackzhen/HaikangWeishi-Master/blob/master/picture/shootScreen1.png)
